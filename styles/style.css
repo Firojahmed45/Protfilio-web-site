@@ -5,4 +5,43 @@
     padding: 0;
     font-family: "Poppins", serif;
     box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+}
+
+:root{
+    --bg-colors: #081b29;
+    --second-bg-colors: #112e42;
+    --text-colors: #ededed;
+    --main-colors: #00abf0;
+}
+
+
+body{
+    background-color: var(--bg-colors);
+}
+.header{
+    position: fixed;
+    padding: 1rem 5%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #081b29;
+}
+.header i{
+    font-size: 2rem;
+    color: #ededed;
+    display: none;
+}
+
+.header-logo a{
+    font-size: 2rem;
+    color: var(--text-colors);
+}
+.navber a{
+ font-size: 1.2rem;
+ color: #00abf0;
+ margin-right: 20px;
 }
